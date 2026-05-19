@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FastAPI Point Visualizer</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        canvas {
+            background: white;
+            border: 1px solid #ccc;
+        }
+
+        .controls {
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 80px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Point Visualizer</h2>
+
+    <div class="controls">
+        X:
+        <input id="xInput" type="number" value="100">
+
+        Y:
+        <input id="yInput" type="number" value="100">
+
+        <button onclick="addPoint()">
+            Add Point
+        </button>
+    </div>
+
+    <canvas id="canvas" width="600" height="400"></canvas>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
