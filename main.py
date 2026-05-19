@@ -56,6 +56,13 @@ async def home(request: Request):
         name="index.html",
     )
 
+@app.get("/map", response_class=HTMLResponse)
+async def home(request: Request):
+    return templates.TemplateResponse(
+        request=request,
+        name="map.html",
+    )
+
 
 @app.get("/points")
 def get_points():
