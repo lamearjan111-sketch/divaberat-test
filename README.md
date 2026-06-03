@@ -4,6 +4,9 @@
 
 This repository contains a prototype developed as part of the DIVA (Digital Innovation for the Valorization of Local Cultural and Environmental Heritage) initiative.
 
+Project Website:
+https://idva.al/en/
+
 The project explores the integration of structured databases, analytics workflows, and AI-assisted information processing to support territorial intelligence, governance analytics, tourism intelligence, and decision-support systems.
 
 ## Main Features
